@@ -1,0 +1,8 @@
+from emails.models import Email
+
+email = Email(
+    sender="chandosltc@clubsolution.co.uk",
+    receiver="tompretty2@gmail.com",
+    subject="Booking Confirmation",
+    body="To Pretty, Tom\r\n\r\nWe confirm your online booking\r\nBooking\r\nCTS 1 - 4 INDOOR /  GYM: COURT 2 INDOOR - All names of players\r\n18-09-2022 at 08:00 - 09:00 £  12.00 \r\nBooking\r\nCTS 1 - 4 INDOOR /  GYM: COURT 2 INDOOR - All names of players\r\n18-09-2022 at 09:00 - 10:00 £  12.00 \r\nTOTAL £  24.00 \r\nPaid Online Today\r\nReference: 405568 \r\n\r\n\r\n\r\nSpecification of bookings\r\nLocation: CTS 1 - 4 INDOOR /  GYM: COURT 2 INDOOR - All names of players \r\nDate: 18-09-2022 at 08:00 - 09:00 \r\nOpponent: Opponent, Test \r\nPrice: £  12.00 \r\nThere are less than 48 hours to Booking Start.\r\nBooking Fee will NOT be refunded unless another member re-books your court \r\n \r\nLocation: CTS 1 - 4 INDOOR /  GYM: COURT 2 INDOOR - All names of players \r\nDate: 18-09-2022 at 09:00 - 10:00 \r\nOpponent: Opponent, Test \r\nPrice: £  12.00 \r\nThere are less than 48 hours to Booking Start.\r\nBooking Fee will NOT be refunded unless another member re-books your court \r\nClub terms and conditions applies to all court bookings.You are responsible for leaving the court appropriately when your court time is finished. \r\n\r\n\r\nPlease  note there will be a late cancellation and no show fee applicable on outdoor courts see club rule 4.1 \r\n \r\n\r\n\r\n\r\nRegards,\r\nChandos LTC\r\n120 East End Road\r\nN2 0RZ \r\nPhone: 020 8343 1755.  020 8346 2856\r\nCompany Reg.: 12345679\r\n\r\n\r\n \r\n\r\n\r\n",
+)
