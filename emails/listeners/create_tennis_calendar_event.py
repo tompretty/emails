@@ -23,21 +23,17 @@ class CreateTennisCalendarEventListener(EmailListener):
 
 
 def _is_chandos_booking_email(email: Email) -> bool:
-    return (
-        email.sender == "chandosltc@clubsolution.co.uk"
-        and email.subject == "Booking Confirmation"
-    )
-
-
-# Your Online Booking - Order no. 100000
+    return _is_from_chandos(email.sender) and _is_booking_subject(email.subject)
 
 
 def _is_from_chandos(sender: str) -> bool:
-    pass
+    return sender == "chandosltc@clubsolution.co.uk"
 
 
 def _is_booking_subject(subject: str) -> bool:
-    pass
+    return subject.startswith("Booking Confirmation") or subject.startswith(
+        "Your Online Booking"
+    )
 
 
 def _get_event(email: Email):
