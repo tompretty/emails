@@ -2,3 +2,4 @@ from .gmail_api_emails import GmailApiEmailsService
 from .gmail_api_subscriber import GmailApiSubscriberService
 from .gmail_emails import GmailEmailsService
 from .gmail_subscriber import GmailSubscriberService
+from .google_calendar import GoogleCalendarService
