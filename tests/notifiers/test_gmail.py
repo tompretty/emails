@@ -3,7 +3,7 @@ from typing import List
 from emails.listeners import LoggingListener
 from emails.models import Email
 from emails.notifiers import GmailNotifier
-from emails.services import GmailEmailsService, GmailService, GmailSubscriberService
+from emails.services import GmailEmailsService, GmailSubscriberService
 
 
 class FakeGmailSubscriberService(GmailSubscriberService):
